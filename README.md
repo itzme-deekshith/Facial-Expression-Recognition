@@ -33,13 +33,15 @@ Facial_Expression_Recognition/
 
 ├── haarcascade_frontalface_default.xml # Face detector XML (OpenCV)
 
-├── kerasmodel.py # Main script (training/display modes)
+├── kerasmodel.py                       # Main script (training/display modes)
 
-├── model.h5 # Trained model weights (generated after training)
+├── model.h5                            # Trained model weights (generated after training)
 
-├── plot.png # Accuracy/Loss plot (generated after training)
+├── graphs.png                          # Accuracy/Loss plot (generated after training)
 
-├── README.md # This file
+├── README.md                           # This file
+
+├── requirements.txt                    # Modules required for this project with versions
 
 
 
@@ -52,7 +54,7 @@ bash
 
 git clone https://github.com/itzme-deekshith/Facial-Expression-Recognition.
 
-cd Facial_Expression_Recognition
+cd Facial-Expression-Recognition.
 
 ---
 ### 2. Create and activate a virtual environment
